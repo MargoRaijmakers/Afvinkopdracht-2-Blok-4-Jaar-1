@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def transcriptie():
-    """Deze functie transleerd de opgegeven DNA-sequentie naar een
+    """Deze functie transleert de opgegeven DNA-sequentie naar een
         aminozuursequentie.
         :param: DNA-sequentie
         :return: aminozuursequentie
